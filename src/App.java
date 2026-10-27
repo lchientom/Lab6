@@ -14,7 +14,6 @@ public class App {
         String test5_2 = "a2bcka";
         System.out.println("test part 5: " + PasswordValidate(test5_1));
         System.out.println("test part 5: " + PasswordValidate(test5_2));
-        checkPhoneFormat(test3);
         String test6 = "aabbcc";
         String test6_2 = "abcdef";
         System.out.println("test part 6: " + doubleChecker(test6));

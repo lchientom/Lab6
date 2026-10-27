@@ -1,0 +1,52 @@
+::Start
+Hello
+How can I help you
+[[Loops]]
+[[If_Statements]]
+[[end]]
+
+::Loops
+There are 3 kinds of loops which would you like to know about?
+[[For]]
+[[While]]
+[[DoWhile]]
+
+::For
+The for loops looks like:
+for (int i=0;i<10;i++)
+This will run 10 times
+[[Start]]
+
+::While
+The while loops looks like:
+int i=0;
+while (i++ < 10)
+{
+
+}
+This will run 10 times
+[[Start]]
+
+::DoWhile
+The do while loops looks like:
+int i=0;
+do
+{
+
+}
+while (i++ < 10);
+This will run 10 times
+This is the only postfix loop structure
+[[Start]]
+
+::If_Statements
+Ooo, If statements are fun. They can evaluate a condition and select a line of code to run
+[[More_If_Statements]]
+
+::More_If_Statements
+If statements are classified as selection statements. 
+Other forms include the switch statement and the short-hand-if, or tertiary operator.
+[[Start]]
+
+::end
+Goodbye

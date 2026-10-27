@@ -1,0 +1,25 @@
+::Hello
+Which color is your favorite?
+[[I like red -> Red]]
+[[I like blue -> Blue]]
+
+::Red
+<<set $favorite_color = Red>>
+You selected red.
+[[Continue -> Confirm]]
+
+::Blue
+<<set $favorite_color = Blue>>
+You selected blue.
+[[Continue -> Confirm]]
+
+::Confirm
+Your favorite color is <<get $favorite_color>>.
+
+<<if $favorite_color = Red>>
+I think I'll make you strawberries because they are red.
+<<endif>>
+
+<<if $favorite_color = Blue>>
+I think I'll make you blueberries because they are blue.
+<<endif>>
